@@ -40,5 +40,4 @@ public class PaymentController {
             return new CommonResult<>(444, "查询失败");
         }
     }
-    //https://github.com/cmj-12/xiaocui.git git@github.com:cmj-12/xiaocui.git
 }

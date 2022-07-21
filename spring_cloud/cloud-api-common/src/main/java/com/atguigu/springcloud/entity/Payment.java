@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * @Author cuiminjie
- * @Date 2022 07 19 21 52
+ * @Date 2022 07 21 22 53
  **/
 @Data
 @NoArgsConstructor
@@ -19,7 +19,7 @@ public class Payment implements Serializable {
     /**
      * id
      */
-    private Integer id;
+    private Long id;
     /**
      * 支付流水号
      */
