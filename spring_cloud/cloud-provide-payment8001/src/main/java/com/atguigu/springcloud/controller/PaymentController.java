@@ -37,7 +37,7 @@ public class PaymentController {
     @GetMapping("/getPaymentById")
     public CommonResult<Payment> getPaymentById(@RequestParam Long id) {
         Payment payment = paymentService.getPaymentById(id);
-        log.info("哈哈h" + payment);
+        log.info("哈哈h1" + payment);
         if (Objects.nonNull(payment)) {
             return new CommonResult<>(200, "查询成功,服务端口是" + serverPort, payment);
         } else {
