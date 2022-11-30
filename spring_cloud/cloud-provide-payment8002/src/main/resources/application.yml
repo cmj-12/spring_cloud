@@ -9,9 +9,12 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/spring_cloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: root
+    password: 123456
 
 eureka:
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetchRegistry: true
